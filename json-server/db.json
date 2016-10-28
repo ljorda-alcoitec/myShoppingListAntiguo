@@ -1,0 +1,58 @@
+{
+  "listaCompra": [
+      {
+        "id": 0,
+        "nombre": "Lista 1",
+        "supermercado": "Mercadona",
+        "otros": "Esto es una descripcion de la lista 1"
+      },
+      {
+        "id": 1,
+        "nombre": "Lista 2",
+        "supermercado": "Mas y mas",
+        "otros": "Esto es una descripcion de la lista 2"
+      },
+      {
+        "id": 2,
+        "nombre": "Lista 3",
+        "supermercado": "Carrefour",
+        "otros": "Esto es una descripcion de la lista 3"
+      },
+      {
+        "id": 3,
+        "nombre": "Lista 4",
+        "supermercado": "vidal",
+        "otros": "Esto es una descripcion de la lista 5"
+      }
+  ],
+
+  "productos": [
+
+      {
+        "id": 0,
+        "nombre": "Pan",
+        "unidades": 3
+      },
+       {
+        "id": 1,
+        "nombre": "Jabon",
+        "unidades": 4
+      },
+       {
+        "id": 2,
+        "nombre": "Pañuelos",
+        "unidades": 6
+      },
+       {
+        "id": 3,
+        "nombre": "Arroz",
+        "unidades": 1
+      },
+       {
+        "id": 4,
+        "nombre": "Sal",
+        "unidades": 24
+      }
+  ]
+}
+ 
