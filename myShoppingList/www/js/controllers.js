@@ -39,4 +39,10 @@ angular.module('myShoppingList.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
-});
+})
+
+.controller('HomeController',['$scope', 'listaCompraFactory', 'baseURL', function($scope, listaCompraFactory, baseURL){
+  $scope.baseURL = baseURL;
+  $scope.listadoCompra = listaCompraFactory.query();
+}
+]);
