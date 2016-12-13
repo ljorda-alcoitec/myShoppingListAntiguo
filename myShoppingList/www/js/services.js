@@ -7,3 +7,5 @@ angular.module('myShoppingList.services', ['ngResource'])
 		return $resource(baseURL+"listaCompra/:id");
 	}
 	]);
+
+
