@@ -40,6 +40,16 @@ angular.module('myShoppingList', ['ionic', 'myShoppingList.controllers', 'myShop
           controller:'HomeController'
         }
       }
+    })
+  
+  .state('app.details', {
+      url: '/details/:id',
+      views:{
+        'menuContent':{
+          templateUrl: 'templates/details.html',
+          controller: 'DetailsController'
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');

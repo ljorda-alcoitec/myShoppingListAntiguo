@@ -45,4 +45,8 @@ angular.module('myShoppingList.controllers', [])
   $scope.baseURL = baseURL;
   $scope.listadoCompra = listaCompraFactory.query();
 }
-]);
+])
+.controller('DetailsController', ['$scope', '$stateParams', 'listaCompraFactory', 'baseURL', function($scope, $stateParams, listaCompraFactory, baseURL){
+  $scope.baseURL = baseURL;
+  $scope.listadoCompra = listaCompraFactory.get({id:parseInt($stateParams.id, 10)});
+}]);
