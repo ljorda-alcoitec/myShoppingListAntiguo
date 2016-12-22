@@ -1,8 +1,14 @@
-<ion-view view-title="Details">
-  	<ion-content>
-        <h1>{{listadoCompra.nombre}}</h1>
-    <h2>{{listadoCompra.supermercado}}</h2>
- 	</ion-content>
+<ion-view>
+  <ion-nav-title>{{listadoCompra.supermercado}}</ion-nav-title>
+  <ion-content>
+      <ion-card>
+        <div class="list">
+          <ion-checkbox ng-repeat="producto in listadoCompra.productos" class="checkbox-energized">
+            {{producto.nombre}}
+          </ion-checkbox>
+        </div>
+      </ion-card>
+	</ion-content>
 </ion-view>
 
 
